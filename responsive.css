@@ -47,3 +47,23 @@
 
     }
 }
+
+
+/* Online Games Funny Videos */
+
+/* responsive for mobile */
+@media (max-width: 414px) {
+    .rectangle1 {
+        flex-direction: column;
+
+    }
+}
+
+/* responsive for tablet */
+
+@media screen and (max-width:768px) {
+    .rectangle1 {
+        flex-direction: column;
+
+    }
+}
