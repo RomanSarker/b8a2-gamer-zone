@@ -11,9 +11,12 @@ body {
 }
 
 .nav-container {
-
+    display: flex;
     border: 1px solid #F948B2;
     min-height: 70px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo-container {
@@ -45,12 +48,12 @@ body {
 
 
 .nav-items-container {
-
+    margin-left: 500px;
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-around;
+    width: 1000%;
 }
 
-.nav-button {
-    background-color: #0B0223;
+.nav-items-container a {
+    text-decoration: none;
 }
