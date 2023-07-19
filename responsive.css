@@ -1,0 +1,29 @@
+/* responsive for mobile */
+@media screen and (max-width:425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .login-button {
+        width: 50%;
+    }
+}
+
+/* responsive for tablet */
+@media screen and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .login-button {
+        width: 100%;
+    }
+}

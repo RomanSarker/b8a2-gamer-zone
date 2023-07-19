@@ -12,7 +12,7 @@ body {
 
 .nav-container {
     display: flex;
-    border: 1px solid #F948B2;
+
     min-height: 70px;
     align-items: center;
     max-width: 1400px;
