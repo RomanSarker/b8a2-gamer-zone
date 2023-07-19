@@ -72,3 +72,20 @@ body {
     font-weight: 500px;
     border-radius: 5px;
 }
+
+/* banner container start */
+
+/* banner container end */
+
+.review-container {
+    border: 1px solid red;
+    min-height: 200px;
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.single-review {
+    border: 1px solid green;
+    flex-basis: 300px;
+}
