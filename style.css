@@ -60,8 +60,15 @@ body {
 
 }
 
+.a-img {
+    width: 30px;
+    height: 20px;
+}
+
 .login-button {
-    background-color: #aa9bd4;
+    background-color: #cfc7e4;
     padding: 10px 40px;
     text-align: center;
+    font-weight: 500px;
+    border-radius: 5px;
 }
