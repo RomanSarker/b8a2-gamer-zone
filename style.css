@@ -102,23 +102,23 @@ body {
 
 
 /* funny style part */
-.funny-container img {
-    margin: 30px;
-    width: 100px;
-    height: 200px;
-    display: flex;
-    align-items: center;
+.social-title {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 
+.rectangle1 {
+    display: flex;
+    gap: 6px;
+}
 
 .h1funny {
-    /* color: #F948B2; */
-    background-image: linear-gradient(to right, #63083a4d, #ff00c8);
+    color: #ff05ea;
+    background-image: radial-gradient(circle at 50% 50%, 10%, #5a0741, #ff05ea);
     background-color: #fff;
-    text-align: center;
 }
-
 
 /* funny style part end */
 
