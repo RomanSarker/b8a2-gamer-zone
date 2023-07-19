@@ -98,8 +98,29 @@ body {
     /* height: 10px; */
 }
 
-
 /* banner container end */
+
+
+/* funny style part */
+.funny-container img {
+    margin: 30px;
+    width: 100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.h1funny {
+    /* color: #F948B2; */
+    background-image: linear-gradient(to right, #63083a4d, #ff00c8);
+    background-color: #fff;
+    text-align: center;
+}
+
+
+/* funny style part end */
 
 .review-container {
     border: 1px solid red;
