@@ -2,6 +2,7 @@
 
 * {
     margin: 0px;
+    padding: 0px;
     border: 0px;
 }
 
@@ -84,9 +85,28 @@ body {
 
 /* banner container start */
 .btn-primary {
+
     background-color: #F948B2;
     padding: 10px;
     border-radius: 9px;
+}
+
+.fa-circle-play {
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.fa-cloud-arrow-down {
+    color: black;
+    font-size: 10px;
+
+}
+
+.fa-person-military-to-person {
+    color: black;
+    font-size: 10px;
+
 }
 
 .btn-secondary {
