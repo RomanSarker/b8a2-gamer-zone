@@ -109,6 +109,13 @@ body {
     background-image: linear-gradient(to bottom, #8758F1, #F948B2);
     color: transparent;
     -webkit-background-clip: text;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.banner-text h2 {
+    font-size: 55px;
+    font-weight: 600;
 }
 
 /* banner container end */
