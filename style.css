@@ -49,7 +49,9 @@ body {
 }
 
 .title-color {
-    color: #F948B2;
+    background-image: linear-gradient(to bottom, #8758F1, #F948B2);
+    color: transparent;
+    -webkit-background-clip: text;
     font-size: 40px;
 }
 
