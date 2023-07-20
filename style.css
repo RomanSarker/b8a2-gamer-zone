@@ -44,6 +44,7 @@ body {
 
 .logo-title-color {
     color: #F948B2;
+    font-size: 45px;
 }
 
 
@@ -122,48 +123,35 @@ body {
 
 /* funny style part end */
 
-/* play section end */
-.play-container {
-    height: 400px;
-    background-color: #FFF;
-
-}
-
-.play-item {
-    height: 400px;
+/* play section start */
+.play-item-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
     justify-items: center;
+    margin-bottom: 20px;
 
 }
 
 .play-des {
-    /* width: 100%; */
     align-items: end;
     text-align: end;
 }
 
 
-.play-pic {
-    height: 400px;
-
-}
-
 .play-pic img {
-    margin: 10px;
-    height: 280px;
+    margin-top: 10px;
 }
 
-.img-one {
-    position: absolute;
+.play-pic {
+    position: relative;
 }
 
 .img-two {
-    position: relative;
-    bottom: 0px;
-    right: 0px;
+    position: absolute;
+    bottom: -10px;
+    left: -45px;
 }
 
 /* play section end */
@@ -220,7 +208,7 @@ footer {
 }
 
 .footer-container {
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
